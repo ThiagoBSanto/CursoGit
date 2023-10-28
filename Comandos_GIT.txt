@@ -1,0 +1,27 @@
+INICIANDO PROJETOS
+
+git init ---> coloca a pasta para ser gerenciada pelo git
+
+git .    ---> transfere os arquivos para um local temporario
+
+git status --> verifica o status do projeto
+
+git commit -m "msg explicativa" --->  salva uma versao no repositorio git
+
+git branch -M main --> garantir que o repositorio  seja main, e não master(versao antiga)
+
+git remote add origin git@github.com:ThiagoBSanto/CursoGit.git (trocar cursogit.git pelo projeto atual)
+
+git push -u origin main  --> enviar github (primeira vez)
+
+git push (demais vezes)
+
+git log --> mostra as versoes
+
+git log --oneline  --> versao resumida
+
+------------------------------------------------------------------------
+
+COPIAR / CLONAR REPOSITORIOS
+
+git clone ThiagoBSanto/CursoGit.git (trocar cursogit.git pelo projeto desejado)
