@@ -41,3 +41,48 @@ git clone ThiagoBSanto/CursoGit.git (trocar cursogit.git pelo projeto desejado)
 git checkout --> ir para um commit ou branch desejado
 
 git checkout main --> voltar para o estado original
+
+-------------------------------------------------------------------------
+TRAZER DO REMOTO
+
+git status
+
+git pull origin main
+
+--------------------------------------------------------------------------
+
+DELETAR ÚLTIMO COMMIT SEM DESFAZER AS MODIFICAÇOES NOS ARQUIVOS
+
+git status
+
+git reset --soft HEAD~1
+
+#Fazer alteraçoes
+
+git status
+
+git add .
+
+git commit -m ""
+
+--------------------------------------------------------------------------
+DELETAR ÚLTIMO COMMIT E TAMBEM AS MODIFICAÇOES NO ARQUIVOS
+
+git status
+
+git reset --hard <codigo commit>
+
+# no caso penultimo
+
+git status
+
+git reset --hard HEAD~1
+
+
+---------------------------------------------------------------------------
+
+SOBRESCREVER NO github
+
+git push -f
+
+# MUITO CUIDADO PQ APAGA TUDO.
