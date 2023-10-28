@@ -20,8 +20,24 @@ git log --> mostra as versoes
 
 git log --oneline  --> versao resumida
 
+---------------------------------------------------------------------
+
+ TODAS MODIFICAÇOES NÃO SALVAS NO STAGE (VOLTANDO AO ULTIMO ESTADO SALVO )
+
+
+git reset --> volta do stage 
+
+git clean -df --> limpa a arvore recursivamente
+
+git checkout -- .  --> Limpar modificaçoes
+
+
 ------------------------------------------------------------------------
 
 COPIAR / CLONAR REPOSITORIOS
 
 git clone ThiagoBSanto/CursoGit.git (trocar cursogit.git pelo projeto desejado)
+
+git checkout --> ir para um commit ou branch desejado
+
+git checkout main --> voltar para o estado original
