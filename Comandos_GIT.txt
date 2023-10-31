@@ -2,7 +2,7 @@ INICIANDO PROJETOS
 
 git init ---> coloca a pasta para ser gerenciada pelo git
 
-git .    ---> transfere os arquivos para um local temporario
+git add .    ---> transfere os arquivos para um local temporario
 
 git status --> verifica o status do projeto
 
